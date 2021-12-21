@@ -38,7 +38,7 @@ puts "Tax on $#{subtotal} is $#{tax}, so grand total is $#{subtotal+tax}"
    #Converting String to Floating Point
 a = "145.50"
 puts(a.to_f) 
-=end a
+
 
    #if else conditions
 taxrate = 0.175
@@ -50,3 +50,29 @@ subtotal = 0.0
 end
 tax = subtotal * taxrate
 puts "Tax on $#{subtotal} is $#{tax}, so grand total is $#{subtotal+tax}"
+
+
+
+    #Classes
+class Myclass
+
+def setname(name)
+@variable = name
+	end
+
+def getname()
+return @variable
+	end
+end    
+
+
+object = Myclass.new
+#object.setname("Afaq")
+#puts(object.getname())
+
+puts(object.class)
+=end a
+
+
+
+
